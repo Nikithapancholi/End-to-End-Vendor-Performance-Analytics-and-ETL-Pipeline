@@ -39,17 +39,17 @@ This project aims to answer the following business questions:
 
 ## 🛠️ Tech Stack
 
-* *Programming Language:* Python
-* *Libraries:* Pandas, NumPy, SQLAlchemy, SciPy
-* *Database:* SQLite
-* *Visualization:* Power BI
-* *Development Environment:* Jupyter Notebook
+* **Programming Language:** Python
+* **Libraries:** Pandas, NumPy, SQLAlchemy, SciPy
+* **Database:** SQLite
+* **Visualization:** Power BI
+* **Development Environment:** Jupyter Notebook
 
 ---
 
 ## 📂 Project Structure
 
-text
+```text
 ├── data/
 │   ├── raw_data/
 │   └── processed_data/
@@ -69,13 +69,13 @@ text
 │
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
 
 ## ⚙️ Project Workflow
 
-text
+```text
 Raw Data
     ↓
 Data Cleaning & Transformation (Python)
@@ -87,7 +87,7 @@ Creation of vendor_sales_summary Table
 Import into Power BI
     ↓
 Interactive Dashboard & Business Insights
-
+```
 
 ---
 
@@ -123,15 +123,15 @@ The following filters were applied to improve analysis quality:
 
 ### Formula: Profit Margin
 
-text
+```text
 Profit Margin = (Gross Profit / Total Sales) × 100
-
+```
 
 ### Formula: Inventory Turnover
 
-text
+```text
 Inventory Turnover = Total Sales Quantity / Total Purchase Quantity
-
+```
 
 ---
 
@@ -139,29 +139,33 @@ Inventory Turnover = Total Sales Quantity / Total Purchase Quantity
 
 ### Vendor Dependency Risk
 
-* The top 10 vendors account for *65.69%* of total purchases.
+* The top 10 vendors account for **65.69%** of total purchases.
 * Heavy reliance on a few vendors increases supply chain risk.
 
 ### Bulk Purchasing Impact
 
-* Bulk purchasing reduced unit costs by approximately *72%*.
-* Average bulk purchase cost was around *$10.78 per unit*.
+* Bulk purchasing reduced unit costs by approximately **72%**.
+* Average bulk purchase cost was around **$10.78 per unit**.
 
 ### High-Margin, Low-Sales Brands
 
-* Identified *198 brands* with high profit margins but low sales volume.
+* Identified **198 brands** with high profit margins but low sales volume.
 * These brands represent opportunities for targeted promotions and pricing optimization.
 
 ### Inventory Optimization
 
-* Approximately *$2.71 million* is tied up in unsold inventory.
+* Approximately **$2.71 million** is tied up in unsold inventory.
 * Slow-moving inventory increases holding costs and impacts cash flow.
 
 ### Vendor Profitability Analysis
 
 * Low-performing vendors achieved higher average profit margins but generated lower sales volumes.
 * High-performing vendors relied on volume-driven profitability strategies.
-  ### Result
+
+---
+
+
+### Result
 
 The null hypothesis was rejected, confirming statistically significant differences in vendor profitability models.
 
@@ -177,6 +181,8 @@ The null hypothesis was rejected, confirming statistically significant differenc
 * Drill-Down Capabilities
 * Dynamic Vendor Performance Analysis
 
+---
+
 ## 💡 Business Recommendations
 
 * Diversify vendor partnerships to reduce dependency risks.
@@ -185,3 +191,4 @@ The null hypothesis was rejected, confirming statistically significant differenc
 * Optimize procurement for slow-moving inventory.
 * Improve distribution strategies for underperforming vendors.
 
+---
